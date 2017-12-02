@@ -1,0 +1,116 @@
+/*Font family attributes*/
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v16/y5-5zezrZlJHkmIVxRH3BZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v16/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+
+html {
+  background-color: black;
+  color: white;
+  font-family: Oswald;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  border-bottom: solid white 1px;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin: 1rem 1rem;
+}
+
+.logo span {
+  margin-left: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+.navigation nav {
+  position: relative;
+  right: 25px;
+  top:
+}
+
+.navigation span{
+  margin-right: 1rem;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.navigation a:hover{
+  color: #16f4ef;
+}
+
+/*End Header Styling*/
+
+.jumbotron{
+  background-image: url(../images/waves.png);
+  background-size: 98%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 37.5rem;
+  position: relative;
+  padding-top: 50px;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbo-copy h1{
+  font-size: 15rem;
+  font-weight: 600;
+}
+
+.jumbo-copy h3{
+  padding-left: 1rem;
+  font-size: 2rem;
+}
